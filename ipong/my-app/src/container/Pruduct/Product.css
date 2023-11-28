@@ -1,0 +1,84 @@
+/* Styling for the header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .logo img {
+    width: 80px; /* Mengatur lebar gambar logo */
+    height: auto; /* Menggunakan 'auto' agar proporsi tetap terjaga */
+  }
+  
+  .troley {
+    position: relative;
+  }
+  
+  .troley img {
+    width: 60px; /* Mengatur lebar gambar trolley */
+    height: auto; /* Menggunakan 'auto' agar proporsi tetap terjaga */
+  }
+  
+  .count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #e74c3c;
+    color: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 14px;
+  }
+  
+  /* Styling for the product card */
+  .card {
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust the width as needed */
+  }
+  
+  .img-thumb-prod img {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Menggunakan 'auto' agar proporsi tetap terjaga */
+    border-radius: 8px;
+  }
+  
+  .product-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    color: #27ae60;
+    margin: 8px 0;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .counter button {
+    background-color: #ddd;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 8px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter button:hover {
+    background-color: #bdc3c7;
+  }
+  
